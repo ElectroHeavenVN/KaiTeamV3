@@ -40,7 +40,7 @@ namespace CapNhatMod
 
 		public Form1()
 		{
-			method_0();
+			InitializeComponent();
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
@@ -112,9 +112,8 @@ namespace CapNhatMod
 			base.Dispose(disposing);
 		}
 
-		private void method_0()
+		private void InitializeComponent()
 		{
-			ComponentResourceManager componentResourceManager = new ComponentResourceManager(typeof(Form1));
 			progressBar_0 = new ProgressBar();
 			label_0 = new Label();
 			SuspendLayout();
@@ -133,7 +132,7 @@ namespace CapNhatMod
 			base.ClientSize = new Size(463, 70);
 			base.Controls.Add(label_0);
 			base.Controls.Add(progressBar_0);
-			base.Icon = (Icon)componentResourceManager.GetObject("$this.Icon");
+			base.Icon = (Icon)new ComponentResourceManager(typeof(Form1)).GetObject("$this.Icon");
 			base.Name = "Form1";
 			Text = "Cập nhật mod";
 			base.Load += Form1_Load;

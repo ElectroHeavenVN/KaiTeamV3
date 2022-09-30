@@ -2,7 +2,7 @@ using System;
 using System.Windows.Forms;
 using CapNhatMod;
 
-internal static class Class1
+internal static class Program
 {
 	[STAThread]
 	private static void Main()

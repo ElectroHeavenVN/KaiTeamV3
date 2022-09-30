@@ -66,7 +66,11 @@ namespace DTDN_2021
 		private DataGridViewTextBoxColumn dataGridViewTextBoxColumn_2;
 
 		private DataGridViewButtonColumn dataGridViewButtonColumn_0;
-
+		private DataGridViewCheckBoxColumn Column4;
+		private DataGridViewTextBoxColumn Column1;
+		private DataGridViewTextBoxColumn Column2;
+		private DataGridViewTextBoxColumn Column3;
+		private DataGridViewButtonColumn Login2;
 		private Panel panel_0;
 
 		public Form1()
@@ -287,246 +291,326 @@ namespace DTDN_2021
 
 		private void InitializeComponent()
 		{
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DTDN_2021.Form1));
-			this.dataGridView_0 = new System.Windows.Forms.DataGridView();
-			this.dataGridViewCheckBoxColumn_0 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-			this.dataGridViewTextBoxColumn_0 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewTextBoxColumn_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.dataGridViewButtonColumn_0 = new System.Windows.Forms.DataGridViewButtonColumn();
-			this.button_0 = new System.Windows.Forms.Button();
-			this.textBox_0 = new System.Windows.Forms.TextBox();
-			this.textBox_1 = new System.Windows.Forms.TextBox();
-			this.comboBox_0 = new System.Windows.Forms.ComboBox();
-			this.label_0 = new System.Windows.Forms.Label();
-			this.label_1 = new System.Windows.Forms.Label();
-			this.groupBox_0 = new System.Windows.Forms.GroupBox();
-			this.button_1 = new System.Windows.Forms.Button();
-			this.label_2 = new System.Windows.Forms.Label();
-			this.textBox_2 = new System.Windows.Forms.TextBox();
-			this.button_2 = new System.Windows.Forms.Button();
-			this.label_3 = new System.Windows.Forms.Label();
-			this.textBox_3 = new System.Windows.Forms.TextBox();
-			this.button_3 = new System.Windows.Forms.Button();
-			this.groupBox_1 = new System.Windows.Forms.GroupBox();
-			this.panel_0 = new System.Windows.Forms.Panel();
-			((System.ComponentModel.ISupportInitialize)this.dataGridView_0).BeginInit();
-			this.groupBox_0.SuspendLayout();
-			this.groupBox_1.SuspendLayout();
-			this.panel_0.SuspendLayout();
-			base.SuspendLayout();
-			this.dataGridView_0.AllowUserToDeleteRows = false;
-			this.dataGridView_0.AllowUserToResizeRows = false;
-			dataGridViewCellStyle.BackColor = System.Drawing.Color.FromArgb(192, 255, 255);
-			dataGridViewCellStyle.ForeColor = System.Drawing.Color.Black;
-			dataGridViewCellStyle.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dataGridView_0.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle;
-			this.dataGridView_0.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
-			this.dataGridView_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-			dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-			dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-			dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dataGridView_0.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-			this.dataGridView_0.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataGridView_0.ColumnHeadersVisible = false;
-			this.dataGridView_0.Columns.AddRange(this.dataGridViewCheckBoxColumn_0, this.dataGridViewTextBoxColumn_0, this.dataGridViewTextBoxColumn_1, this.dataGridViewTextBoxColumn_2, this.dataGridViewButtonColumn_0);
-			dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-			dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-			dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-			dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
-			dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Red;
-			dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dataGridView_0.DefaultCellStyle = dataGridViewCellStyle3;
-			this.dataGridView_0.GridColor = System.Drawing.Color.FromArgb(255, 128, 255);
-			this.dataGridView_0.Location = new System.Drawing.Point(3, 3);
-			this.dataGridView_0.MultiSelect = false;
-			this.dataGridView_0.Name = "dataGridView1";
-			this.dataGridView_0.ReadOnly = true;
-			dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-			dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-			dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-			dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(128, 255, 128);
-			dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.dataGridView_0.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
-			this.dataGridView_0.RowHeadersVisible = false;
-			this.dataGridView_0.RowHeadersWidth = 35;
-			this.dataGridView_0.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			this.dataGridView_0.Size = new System.Drawing.Size(527, 221);
-			this.dataGridView_0.TabIndex = 0;
-			this.dataGridView_0.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(dataGridView_0_CellContentClick);
-			this.dataGridView_0.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(dataGridView_0_CellDoubleClick);
-			this.dataGridView_0.KeyDown += new System.Windows.Forms.KeyEventHandler(dataGridView_0_KeyDown);
-			this.dataGridViewCheckBoxColumn_0.HeaderText = "Column4";
-			this.dataGridViewCheckBoxColumn_0.Name = "Column4";
-			this.dataGridViewCheckBoxColumn_0.ReadOnly = true;
-			this.dataGridViewCheckBoxColumn_0.Width = 30;
-			this.dataGridViewTextBoxColumn_0.HeaderText = "ID";
-			this.dataGridViewTextBoxColumn_0.Name = "Column1";
-			this.dataGridViewTextBoxColumn_0.ReadOnly = true;
-			this.dataGridViewTextBoxColumn_0.Width = 50;
-			this.dataGridViewTextBoxColumn_1.HeaderText = "Server";
-			this.dataGridViewTextBoxColumn_1.Name = "Column2";
-			this.dataGridViewTextBoxColumn_1.ReadOnly = true;
-			this.dataGridViewTextBoxColumn_1.Width = 70;
-			this.dataGridViewTextBoxColumn_2.HeaderText = "Tai khoan";
-			this.dataGridViewTextBoxColumn_2.Name = "Column3";
-			this.dataGridViewTextBoxColumn_2.ReadOnly = true;
-			this.dataGridViewTextBoxColumn_2.Width = 200;
-			this.dataGridViewButtonColumn_0.HeaderText = "Login";
-			this.dataGridViewButtonColumn_0.Name = "Login2";
-			this.dataGridViewButtonColumn_0.ReadOnly = true;
-			this.dataGridViewButtonColumn_0.Text = "Đăng nhập";
-			this.dataGridViewButtonColumn_0.ToolTipText = "zz";
-			this.dataGridViewButtonColumn_0.UseColumnTextForButtonValue = true;
-			this.button_0.BackColor = System.Drawing.Color.PeachPuff;
-			this.button_0.Location = new System.Drawing.Point(170, 35);
-			this.button_0.Name = "BtnAdd";
-			this.button_0.Size = new System.Drawing.Size(90, 23);
-			this.button_0.TabIndex = 1;
-			this.button_0.Text = "Thêm";
-			this.button_0.UseVisualStyleBackColor = false;
-			this.button_0.Click += new System.EventHandler(button_0_Click);
-			this.textBox_0.BackColor = System.Drawing.Color.PeachPuff;
-			this.textBox_0.Location = new System.Drawing.Point(68, 14);
-			this.textBox_0.Name = "txbTk";
-			this.textBox_0.Size = new System.Drawing.Size(100, 20);
-			this.textBox_0.TabIndex = 2;
-			this.textBox_1.BackColor = System.Drawing.Color.PeachPuff;
-			this.textBox_1.Location = new System.Drawing.Point(68, 37);
-			this.textBox_1.Name = "txbMk";
-			this.textBox_1.Size = new System.Drawing.Size(100, 20);
-			this.textBox_1.TabIndex = 3;
-			this.textBox_1.TextChanged += new System.EventHandler(textBox_1_TextChanged);
-			this.comboBox_0.BackColor = System.Drawing.Color.PeachPuff;
-			this.comboBox_0.FormattingEnabled = true;
-			this.comboBox_0.Items.AddRange(new object[11]
-			{
-				"Server 1", "Server 2", "Server 3", "Server 4", "Server 5", "Server 6", "Server 7", "Server 8", "Server 9", "Naga",
-				"1 Star"
-			});
-			this.comboBox_0.Location = new System.Drawing.Point(171, 13);
-			this.comboBox_0.Name = "comboBox1";
-			this.comboBox_0.Size = new System.Drawing.Size(89, 21);
-			this.comboBox_0.TabIndex = 4;
-			this.comboBox_0.Text = "Server 1";
-			this.label_0.AutoSize = true;
-			this.label_0.Location = new System.Drawing.Point(6, 17);
-			this.label_0.Name = "label1";
-			this.label_0.Size = new System.Drawing.Size(58, 13);
-			this.label_0.TabIndex = 5;
-			this.label_0.Text = "Tài khoản:";
-			this.label_1.AutoSize = true;
-			this.label_1.Location = new System.Drawing.Point(7, 40);
-			this.label_1.Name = "label2";
-			this.label_1.Size = new System.Drawing.Size(55, 13);
-			this.label_1.TabIndex = 6;
-			this.label_1.Text = "Mật khẩu:";
-			this.groupBox_0.Controls.Add(this.textBox_0);
-			this.groupBox_0.Controls.Add(this.label_1);
-			this.groupBox_0.Controls.Add(this.textBox_1);
-			this.groupBox_0.Controls.Add(this.label_0);
-			this.groupBox_0.Controls.Add(this.comboBox_0);
-			this.groupBox_0.Controls.Add(this.button_0);
-			this.groupBox_0.Location = new System.Drawing.Point(484, 9);
-			this.groupBox_0.Name = "groupBox1";
-			this.groupBox_0.Size = new System.Drawing.Size(270, 66);
-			this.groupBox_0.TabIndex = 7;
-			this.groupBox_0.TabStop = false;
-			this.button_1.BackColor = System.Drawing.Color.PeachPuff;
-			this.button_1.Location = new System.Drawing.Point(1077, 500);
-			this.button_1.Name = "chonAll";
-			this.button_1.Size = new System.Drawing.Size(113, 23);
-			this.button_1.TabIndex = 8;
-			this.button_1.Text = "Chọn/Bỏ chọn all";
-			this.button_1.UseVisualStyleBackColor = false;
-			this.button_1.Click += new System.EventHandler(button_1_Click);
-			this.label_2.AutoSize = true;
-			this.label_2.Location = new System.Drawing.Point(6, 16);
-			this.label_2.Name = "label3";
-			this.label_2.Size = new System.Drawing.Size(77, 13);
-			this.label_2.TabIndex = 11;
-			this.label_2.Text = "Nội dung chat:";
-			this.textBox_2.BackColor = System.Drawing.Color.PeachPuff;
-			this.textBox_2.Location = new System.Drawing.Point(89, 13);
-			this.textBox_2.Name = "textBox1";
-			this.textBox_2.Size = new System.Drawing.Size(100, 20);
-			this.textBox_2.TabIndex = 10;
-			this.textBox_2.TextChanged += new System.EventHandler(textBox_2_TextChanged);
-			this.button_2.BackColor = System.Drawing.Color.PeachPuff;
-			this.button_2.Location = new System.Drawing.Point(195, 11);
-			this.button_2.Name = "button1";
-			this.button_2.Size = new System.Drawing.Size(65, 23);
-			this.button_2.TabIndex = 9;
-			this.button_2.Text = "Lưu";
-			this.button_2.UseVisualStyleBackColor = false;
-			this.button_2.Click += new System.EventHandler(button_2_Click);
-			this.label_3.AutoSize = true;
-			this.label_3.Location = new System.Drawing.Point(6, 39);
-			this.label_3.Name = "label4";
-			this.label_3.Size = new System.Drawing.Size(71, 13);
-			this.label_3.TabIndex = 13;
-			this.label_3.Text = "Nội dung ctg:";
-			this.textBox_3.BackColor = System.Drawing.Color.PeachPuff;
-			this.textBox_3.Location = new System.Drawing.Point(89, 36);
-			this.textBox_3.Name = "textBox2";
-			this.textBox_3.Size = new System.Drawing.Size(100, 20);
-			this.textBox_3.TabIndex = 12;
-			this.button_3.BackColor = System.Drawing.Color.PeachPuff;
-			this.button_3.Location = new System.Drawing.Point(195, 34);
-			this.button_3.Name = "button2";
-			this.button_3.Size = new System.Drawing.Size(65, 23);
-			this.button_3.TabIndex = 14;
-			this.button_3.Text = "Lưu";
-			this.button_3.UseVisualStyleBackColor = false;
-			this.button_3.Click += new System.EventHandler(button_3_Click);
-			this.groupBox_1.Controls.Add(this.label_2);
-			this.groupBox_1.Controls.Add(this.button_3);
-			this.groupBox_1.Controls.Add(this.button_2);
-			this.groupBox_1.Controls.Add(this.label_3);
-			this.groupBox_1.Controls.Add(this.textBox_2);
-			this.groupBox_1.Controls.Add(this.textBox_3);
-			this.groupBox_1.Location = new System.Drawing.Point(484, 81);
-			this.groupBox_1.Name = "groupBox2";
-			this.groupBox_1.Size = new System.Drawing.Size(270, 66);
-			this.groupBox_1.TabIndex = 15;
-			this.groupBox_1.TabStop = false;
-			this.groupBox_1.Enter += new System.EventHandler(groupBox_1_Enter);
-			this.panel_0.Controls.Add(this.dataGridView_0);
-			this.panel_0.Location = new System.Drawing.Point(12, 12);
-			this.panel_0.Name = "panel1";
-			this.panel_0.Size = new System.Drawing.Size(458, 234);
-			this.panel_0.TabIndex = 16;
-			base.AutoScaleDimensions = new System.Drawing.SizeF(6f, 13f);
-			base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.Color.PeachPuff;
-			base.ClientSize = new System.Drawing.Size(769, 252);
-			base.Controls.Add(this.panel_0);
-			base.Controls.Add(this.groupBox_1);
-			base.Controls.Add(this.button_1);
-			base.Controls.Add(this.groupBox_0);
-			base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-			base.Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
-			base.Name = "Form1";
-			this.Text = "KaiTeamV3";
-			base.Load += new System.EventHandler(Form1_Load);
-			((System.ComponentModel.ISupportInitialize)this.dataGridView_0).EndInit();
-			this.groupBox_0.ResumeLayout(false);
-			this.groupBox_0.PerformLayout();
-			this.groupBox_1.ResumeLayout(false);
-			this.groupBox_1.PerformLayout();
-			this.panel_0.ResumeLayout(false);
-			base.ResumeLayout(false);
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.dataGridView_0 = new System.Windows.Forms.DataGridView();
+            this.Column4 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Login2 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.button_0 = new System.Windows.Forms.Button();
+            this.textBox_0 = new System.Windows.Forms.TextBox();
+            this.textBox_1 = new System.Windows.Forms.TextBox();
+            this.comboBox_0 = new System.Windows.Forms.ComboBox();
+            this.label_0 = new System.Windows.Forms.Label();
+            this.label_1 = new System.Windows.Forms.Label();
+            this.groupBox_0 = new System.Windows.Forms.GroupBox();
+            this.button_1 = new System.Windows.Forms.Button();
+            this.label_2 = new System.Windows.Forms.Label();
+            this.textBox_2 = new System.Windows.Forms.TextBox();
+            this.button_2 = new System.Windows.Forms.Button();
+            this.label_3 = new System.Windows.Forms.Label();
+            this.textBox_3 = new System.Windows.Forms.TextBox();
+            this.button_3 = new System.Windows.Forms.Button();
+            this.groupBox_1 = new System.Windows.Forms.GroupBox();
+            this.panel_0 = new System.Windows.Forms.Panel();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_0)).BeginInit();
+            this.groupBox_0.SuspendLayout();
+            this.groupBox_1.SuspendLayout();
+            this.panel_0.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // dataGridView_0
+            // 
+            this.dataGridView_0.AllowUserToDeleteRows = false;
+            this.dataGridView_0.AllowUserToResizeRows = false;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_0.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridView_0.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
+            this.dataGridView_0.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_0.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridView_0.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_0.ColumnHeadersVisible = false;
+            this.dataGridView_0.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column4,
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Login2});
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Red;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_0.DefaultCellStyle = dataGridViewCellStyle7;
+            this.dataGridView_0.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.dataGridView_0.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView_0.MultiSelect = false;
+            this.dataGridView_0.Name = "dataGridView_0";
+            this.dataGridView_0.ReadOnly = true;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_0.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            this.dataGridView_0.RowHeadersVisible = false;
+            this.dataGridView_0.RowHeadersWidth = 35;
+            this.dataGridView_0.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView_0.Size = new System.Drawing.Size(527, 221);
+            this.dataGridView_0.TabIndex = 0;
+            this.dataGridView_0.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_0_CellContentClick);
+            this.dataGridView_0.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_0_CellDoubleClick);
+            this.dataGridView_0.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView_0_KeyDown);
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Column4";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Width = 30;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "ID";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 50;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Server";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 70;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Tai khoan";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 200;
+            // 
+            // Login2
+            // 
+            this.Login2.HeaderText = "Login";
+            this.Login2.Name = "Login2";
+            this.Login2.ReadOnly = true;
+            this.Login2.Text = "Đăng nhập";
+            this.Login2.ToolTipText = "zz";
+            this.Login2.UseColumnTextForButtonValue = true;
+            // 
+            // button_0
+            // 
+            this.button_0.BackColor = System.Drawing.Color.PeachPuff;
+            this.button_0.Location = new System.Drawing.Point(170, 35);
+            this.button_0.Name = "button_0";
+            this.button_0.Size = new System.Drawing.Size(90, 23);
+            this.button_0.TabIndex = 1;
+            this.button_0.Text = "Thêm";
+            this.button_0.UseVisualStyleBackColor = false;
+            this.button_0.Click += new System.EventHandler(this.button_0_Click);
+            // 
+            // textBox_0
+            // 
+            this.textBox_0.BackColor = System.Drawing.Color.PeachPuff;
+            this.textBox_0.Location = new System.Drawing.Point(68, 14);
+            this.textBox_0.Name = "textBox_0";
+            this.textBox_0.Size = new System.Drawing.Size(100, 20);
+            this.textBox_0.TabIndex = 2;
+            // 
+            // textBox_1
+            // 
+            this.textBox_1.BackColor = System.Drawing.Color.PeachPuff;
+            this.textBox_1.Location = new System.Drawing.Point(68, 37);
+            this.textBox_1.Name = "textBox_1";
+            this.textBox_1.Size = new System.Drawing.Size(100, 20);
+            this.textBox_1.TabIndex = 3;
+            this.textBox_1.TextChanged += new System.EventHandler(this.textBox_1_TextChanged);
+            // 
+            // comboBox_0
+            // 
+            this.comboBox_0.BackColor = System.Drawing.Color.PeachPuff;
+            this.comboBox_0.FormattingEnabled = true;
+            this.comboBox_0.Items.AddRange(new object[] {
+            "Server 1",
+            "Server 2",
+            "Server 3",
+            "Server 4",
+            "Server 5",
+            "Server 6",
+            "Server 7",
+            "Server 8",
+            "Server 9",
+            "Naga",
+            "1 Star"});
+            this.comboBox_0.Location = new System.Drawing.Point(171, 13);
+            this.comboBox_0.Name = "comboBox_0";
+            this.comboBox_0.Size = new System.Drawing.Size(89, 21);
+            this.comboBox_0.TabIndex = 4;
+            this.comboBox_0.Text = "Server 1";
+            // 
+            // label_0
+            // 
+            this.label_0.AutoSize = true;
+            this.label_0.Location = new System.Drawing.Point(6, 17);
+            this.label_0.Name = "label_0";
+            this.label_0.Size = new System.Drawing.Size(58, 13);
+            this.label_0.TabIndex = 5;
+            this.label_0.Text = "Tài khoản:";
+            // 
+            // label_1
+            // 
+            this.label_1.AutoSize = true;
+            this.label_1.Location = new System.Drawing.Point(7, 40);
+            this.label_1.Name = "label_1";
+            this.label_1.Size = new System.Drawing.Size(55, 13);
+            this.label_1.TabIndex = 6;
+            this.label_1.Text = "Mật khẩu:";
+            // 
+            // groupBox_0
+            // 
+            this.groupBox_0.Controls.Add(this.textBox_0);
+            this.groupBox_0.Controls.Add(this.label_1);
+            this.groupBox_0.Controls.Add(this.textBox_1);
+            this.groupBox_0.Controls.Add(this.label_0);
+            this.groupBox_0.Controls.Add(this.comboBox_0);
+            this.groupBox_0.Controls.Add(this.button_0);
+            this.groupBox_0.Location = new System.Drawing.Point(484, 9);
+            this.groupBox_0.Name = "groupBox_0";
+            this.groupBox_0.Size = new System.Drawing.Size(270, 66);
+            this.groupBox_0.TabIndex = 7;
+            this.groupBox_0.TabStop = false;
+            // 
+            // button_1
+            // 
+            this.button_1.BackColor = System.Drawing.Color.PeachPuff;
+            this.button_1.Location = new System.Drawing.Point(484, 153);
+            this.button_1.Name = "button_1";
+            this.button_1.Size = new System.Drawing.Size(113, 23);
+            this.button_1.TabIndex = 8;
+            this.button_1.Text = "Chọn/Bỏ chọn all";
+            this.button_1.UseVisualStyleBackColor = false;
+            this.button_1.Click += new System.EventHandler(this.button_1_Click);
+            // 
+            // label_2
+            // 
+            this.label_2.AutoSize = true;
+            this.label_2.Location = new System.Drawing.Point(6, 16);
+            this.label_2.Name = "label_2";
+            this.label_2.Size = new System.Drawing.Size(77, 13);
+            this.label_2.TabIndex = 11;
+            this.label_2.Text = "Nội dung chat:";
+            // 
+            // textBox_2
+            // 
+            this.textBox_2.BackColor = System.Drawing.Color.PeachPuff;
+            this.textBox_2.Location = new System.Drawing.Point(89, 13);
+            this.textBox_2.Name = "textBox_2";
+            this.textBox_2.Size = new System.Drawing.Size(100, 20);
+            this.textBox_2.TabIndex = 10;
+            this.textBox_2.TextChanged += new System.EventHandler(this.textBox_2_TextChanged);
+            // 
+            // button_2
+            // 
+            this.button_2.BackColor = System.Drawing.Color.PeachPuff;
+            this.button_2.Location = new System.Drawing.Point(195, 11);
+            this.button_2.Name = "button_2";
+            this.button_2.Size = new System.Drawing.Size(65, 23);
+            this.button_2.TabIndex = 9;
+            this.button_2.Text = "Lưu";
+            this.button_2.UseVisualStyleBackColor = false;
+            this.button_2.Click += new System.EventHandler(this.button_2_Click);
+            // 
+            // label_3
+            // 
+            this.label_3.AutoSize = true;
+            this.label_3.Location = new System.Drawing.Point(6, 39);
+            this.label_3.Name = "label_3";
+            this.label_3.Size = new System.Drawing.Size(71, 13);
+            this.label_3.TabIndex = 13;
+            this.label_3.Text = "Nội dung ctg:";
+            // 
+            // textBox_3
+            // 
+            this.textBox_3.BackColor = System.Drawing.Color.PeachPuff;
+            this.textBox_3.Location = new System.Drawing.Point(89, 36);
+            this.textBox_3.Name = "textBox_3";
+            this.textBox_3.Size = new System.Drawing.Size(100, 20);
+            this.textBox_3.TabIndex = 12;
+            // 
+            // button_3
+            // 
+            this.button_3.BackColor = System.Drawing.Color.PeachPuff;
+            this.button_3.Location = new System.Drawing.Point(195, 34);
+            this.button_3.Name = "button_3";
+            this.button_3.Size = new System.Drawing.Size(65, 23);
+            this.button_3.TabIndex = 14;
+            this.button_3.Text = "Lưu";
+            this.button_3.UseVisualStyleBackColor = false;
+            this.button_3.Click += new System.EventHandler(this.button_3_Click);
+            // 
+            // groupBox_1
+            // 
+            this.groupBox_1.Controls.Add(this.label_2);
+            this.groupBox_1.Controls.Add(this.button_3);
+            this.groupBox_1.Controls.Add(this.button_2);
+            this.groupBox_1.Controls.Add(this.label_3);
+            this.groupBox_1.Controls.Add(this.textBox_2);
+            this.groupBox_1.Controls.Add(this.textBox_3);
+            this.groupBox_1.Location = new System.Drawing.Point(484, 81);
+            this.groupBox_1.Name = "groupBox_1";
+            this.groupBox_1.Size = new System.Drawing.Size(270, 66);
+            this.groupBox_1.TabIndex = 15;
+            this.groupBox_1.TabStop = false;
+            this.groupBox_1.Enter += new System.EventHandler(this.groupBox_1_Enter);
+            // 
+            // panel_0
+            // 
+            this.panel_0.Controls.Add(this.dataGridView_0);
+            this.panel_0.Location = new System.Drawing.Point(12, 12);
+            this.panel_0.Name = "panel_0";
+            this.panel_0.Size = new System.Drawing.Size(458, 234);
+            this.panel_0.TabIndex = 16;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PeachPuff;
+            this.ClientSize = new System.Drawing.Size(765, 259);
+            this.Controls.Add(this.panel_0);
+            this.Controls.Add(this.groupBox_1);
+            this.Controls.Add(this.button_1);
+            this.Controls.Add(this.groupBox_0);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Name = "Form1";
+            this.Text = "KaiTeamV3";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_0)).EndInit();
+            this.groupBox_0.ResumeLayout(false);
+            this.groupBox_0.PerformLayout();
+            this.groupBox_1.ResumeLayout(false);
+            this.groupBox_1.PerformLayout();
+            this.panel_0.ResumeLayout(false);
+            this.ResumeLayout(false);
+
 		}
 	}
 }
