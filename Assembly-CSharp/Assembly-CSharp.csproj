@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>7.3</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>..\Library\UnityEngine.dll</HintPath>
+    </Reference>
+	  <Reference Include="mscorlib">
+		  <HintPath>..\Library\mscorlib.dll</HintPath>
+	  </Reference>
+	  <Reference Include="System.Core">
+		  <HintPath>..\Library\System.Core.dll</HintPath>
+	  </Reference>
+	  <Reference Include="System">
+		  <HintPath>..\Library\System.dll</HintPath>
+	  </Reference>
+	  <Reference Include="LibraryPhPro">
+		  <HintPath>..\Library\LibraryPhPro.dll</HintPath>
+	  </Reference>
+  </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy &quot;$(TargetDir)Assembly-CSharp.dll&quot; &quot;$(SolutionDir)Library\&quot;" />
+  </Target>
+</Project>
